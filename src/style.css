@@ -1,0 +1,102 @@
+/** Globales **/
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: unset;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    display: block;
+    min-height: 100%;
+    background-image: url("Fondo_2.jpg");
+    background-color: #cccccc;
+    /*:linear-gradient(green, black)*/
+    /*background-image: linear-gradient(120deg, #667eea 0%, #764ba2 100%);*/
+}
+
+img {
+    /* Hacemos todas las imágenes responsivas */
+    max-width: 100%;
+}
+
+.img1 {
+    width:"5%"
+}
+
+
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(151, 71, 25);
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    /*align-items: center;*/
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 0.5px;
+    text-align: center;
+    color: rgb(15, 153, 22);
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 0.5px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+
+
+
+.seccion-index {
+    border: 10px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /*margin-right: 100px;*/
+    margin-left: 280px;
+    background-color: lightblue;
+
+    width: 100%;
+    max-width: 80rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*margin: 0.5rem auto;*/
+    /*border: 10px solid #4CAF50;*/
+}
+
+
+.container {
+    height: 20rem;
+    width: 30rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border: 1px solid #800040;
+    box-shadow: 0 0 8px 3px #fff;
+}
