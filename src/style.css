@@ -29,6 +29,9 @@ body {
 img {
     /* Hacemos todas las imágenes responsivas */
     max-width: 100%;
+    display: block;
+    margin-left: 510px;
+    /*margin-right: 10px;*/
 }
 
 .img1 {
@@ -38,23 +41,27 @@ img {
 
 
 h1 {
-    font-size: 5rem;
-    text-align: center;
-    color: rgb(151, 71, 25);
-    font-family: cursive;
-    text-align: center;
+    font-size: 6rem;
+    color: rgb(28, 5, 133);
+    /*font-family: cursive;*/
+    font-family:"Times New Roman", Times, serif;
+    align-self: center;
     margin-bottom: 10px;
+    position: absolute;
+    left: 610px;
+    width: 200px;
+    height: 120px;
+    text-shadow: #555 3px 3px 4px;
     /*align-items: center;*/
 }
 
 h2 {
-    font-size: 4rem;
-    margin-bottom: 0.5px;
+    font-size: 1.5rem;
+    /*margin-bottom: 0.5px;*/
     text-align: center;
-    color: rgb(15, 153, 22);
-    font-family: cursive;
-    text-align: center;
-    margin-bottom: 10px;
+    color: rgb(94, 15, 9);
+    font-family: Sans-serif;
+    margin-bottom: 1px;
 }
 
 h3 {
@@ -89,14 +96,90 @@ h4 {
 
 
 .container {
-    height: 20rem;
-    width: 30rem;
+    height: 35rem;
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     background: rgba(255, 255, 255, 0.5);
     padding: 2rem;
-    border: 1px solid #800040;
+    border: 4px solid #1a0566;
     box-shadow: 0 0 8px 3px #fff;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    top: 10%;
+    left: 70%;
+}
+
+
+.formulario{
+    /*display: flex;*/
+	/*justify-content: space-between;*/
+	margin-top: 1px;
+}
+
+.letra{
+    margin-top: 5px;
+}
+
+.grupo .label {
+	font-size: 16px;
+	color: #7d8994;
+	margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+  }
+
+.boton {
+    display: flex;
+    margin-left: 240px;
+}
+
+
+
+.grupo .boton1 {
+    display: flex;
+    border-radius: 5px;
+    margin-left: 280px;
+    padding: 5px;
+}
+
+.grupo .label1 {
+	font-size: 16px;
+    color: #7d8994;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 90px;
+}
+
+.container .Descripcion{
+    margin-top: 20px;
+    font-size: 20px;
+    /*text-align: center;*/
+    color: rgb(0, 0, 0);   
+    margin-left: 0px;
+}
+
+.container .Titulo{
+    
+    font-size: 36px;
+    text-align: center;
+    color: rgb(247, 17, 132);
+    font-family: cursive;
+}
+
+.container .TarjetaCifrado{
+    margin-top: 20px;
+    font-size: 20px;
+    /*text-align: center;*/
+    color: rgb(0, 0, 0);   
+    margin-left: 0px;
 }
